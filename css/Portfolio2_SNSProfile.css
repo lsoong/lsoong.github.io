@@ -1,0 +1,77 @@
+.point-color {
+  color: #6fbaf8;
+}
+
+.small-font {
+  font-size: 14px;
+}
+
+.point-button {
+  background: #6fbaf8;
+  border: #6fbaf8;
+  color: white;
+  width: 100px;
+}
+
+.background {
+  background: #f7f9fc;
+}
+
+.top-divider {
+  border-right: 2px solid #bebebe;
+}
+
+.profile-tab {
+  background: transparent;
+  color: #6fbaf8;
+  border: 0px;
+  border-bottom: 3px solid #6fbaf8;
+  padding: 8px 18px;
+}
+
+.tab {
+  width: 100%;
+  border-bottom: 3px solid #cfcfcf;
+}
+
+.People-divider {
+  width: 100%;
+  height: 2px;
+  background: #bebebe;
+  margin: 8px 0px;
+}
+
+.about-divider {
+  width: 100%;
+  height: 2px;
+  background: #bebebe;
+  margin: 60px 0px 20px;
+}
+
+.skills-pill {
+  background: white;
+  color: gray;
+  border: 2px solid #bebebe;
+  padding: 8px 16px;
+}
+
+.profile-contents {
+  height: 600px;
+}
+
+/* lg */
+@media screen and (max-width: 992px) {
+  .top-divider {
+    height: 30px;
+    width: 100%;
+    border: 0px;
+  }
+
+  .profile-contents {
+    height: auto;
+  }
+
+  .peoples {
+    display: none;
+  }
+}

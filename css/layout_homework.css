@@ -1,0 +1,80 @@
+.container {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.left {
+  width: 80%;
+  height: 200px;
+  float: left;
+  /* padding-left: 4px;
+  padding-right: 4px; */
+}
+
+.right {
+  width: 20%;
+  height: 200px;
+  background: yellow;
+  float: left;
+}
+
+.profile {
+  height: 50px;
+}
+
+.profile-img {
+  height: 50px;
+  display: block;
+  float: left;
+}
+
+.profile-right {
+  width: auto;
+  height: 100%;
+  float: left;
+  margin-left: 8px;
+}
+
+.name {
+  font-size: 18px;
+  margin-bottom: 4px;
+}
+
+.time {
+  font-size: 14px;
+  color: gray;
+}
+
+.title h4 {
+  margin: 0px;
+  margin-top: 10px;
+  margin-bottom: 14px;
+  font-size: 18px;
+}
+
+.description {
+  color: gray;
+}
+
+.navbar li {
+  display: inline-block;
+  width: 60px;
+  text-align: center;
+  background: #eee;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+
+.navbar a {
+  font-size: 16px;
+  text-decoration: none;
+  color: black;
+}
+
+.navbar a:focus,
+a:active,
+a:visited {
+  text-decoration: none;
+}
